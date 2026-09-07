@@ -1,0 +1,38 @@
+{
+  "name": "article-prompt-pack",
+  "version": "1.0.0",
+  "entry": "pack.md",
+  "platforms": [
+    "블로그",
+    "쓰레드",
+    "X일반",
+    "X프리미엄",
+    "긱뉴스",
+    "전체"
+  ],
+  "options": [
+    "평서체",
+    "속보",
+    "키워드",
+    "검증"
+  ],
+  "modules": [
+    "parts/00-header.md",
+    "core/core.md",
+    "platforms/_intro.md",
+    "platforms/blog.md",
+    "platforms/threads.md",
+    "platforms/x-standard.md",
+    "platforms/x-premium.md",
+    "platforms/geeknews.md",
+    "options/_intro.md",
+    "options/declarative.md",
+    "options/breaking.md",
+    "options/keyword.md",
+    "options/verify.md",
+    "parts/90-batch.md",
+    "parts/95-check.md",
+    "parts/99-input.md"
+  ],
+  "generated": "2026-09-07"
+}
